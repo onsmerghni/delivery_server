@@ -25,7 +25,7 @@ import hashlib
 from datetime import datetime, timedelta
 from functools import wraps
 import sys
-!pip install flask flask-cors flask-sock pyjwt bcrypt gunicorn
+
 
 from flask import Flask, request, jsonify, g
 from flask_cors import CORS
